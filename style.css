@@ -1,0 +1,114 @@
+* {
+    width: 1200px;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+b {
+    font-style: italic;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+.mono_head {
+    padding: 15px;
+    font-size: 55px;
+    margin: 15px 30px;
+}
+
+
+.mono_order li {
+    font-size:xx-large;
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 15px 0 0 60px;
+}
+
+.mono_order li:hover {
+    color: #fff;
+    box-shadow:0px 0px 30px #252525;
+}
+
+.mono_order li:last-child{
+    padding: 15px 0 0 0;
+}
+
+.mono_order img {
+    width: 100%;
+}
+
+.mono_order::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+}
+
+.mono_main {
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mono_main a:hover {
+    background: #252525;
+    
+}
+
+.mono_main li:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.mono_main a {
+    width: 1200px;
+    font-size: 48px;
+    padding: 70px 0;
+}
+
+.alert {
+    text-align: start;
+    padding: 50px;
+    font-size: larger;
+}
+
+button {
+    border: 1px solid #fff;
+    background-color: #000;
+    color:#fff;
+    padding: 8px 0;
+    width: 20%;
+    margin-left: 950px;
+    font-size: large;
+}
+
+.question {
+    background-color: #fff;
+    padding: 500px;
+    margin-left: 30px;
+}
+
+footer {
+    line-height: 24px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #fff;
+}
