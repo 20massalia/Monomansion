@@ -112,3 +112,13 @@ footer {
     font-size: 14px;
     border-top: 1px solid #fff;
 }
+
+.input_button {
+    background: #3f31c3;
+}
+
+#pic img {
+    width: 50%;   
+    float: left;
+    margin: 50px;
+}
